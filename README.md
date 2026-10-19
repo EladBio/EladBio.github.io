@@ -33,5 +33,5 @@ I'm an incoming M.Sc. candidate in Systems and Computational Biology at the Weiz
 ---
 
 ### 🌐 Let's Connect
-* **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/elad-cohen-science/)
-* **Email:** [your-email@example.com](coelad@weizmann.ac.il)
+* **LinkedIn:** [Profile](https://www.linkedin.com/in/elad-cohen-science/)
+* **Email:** [coelad@weizmann.ac.il](coelad@weizmann.ac.il)
