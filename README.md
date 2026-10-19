@@ -11,13 +11,6 @@ I'm an incoming M.Sc. candidate in Systems and Computational Biology at the Weiz
 
 ---
 
-### 🛠️ Tech Stack & Methods
-* **Analysis & Querying:** Python (Pandas, NumPy), SQL, Google BigQuery
-* **BI & Spreadsheets:** Power BI, Tableau, Advanced Excel
-* **Domain Focus:** Exploratory Data Analysis (EDA), Statistical Thinking, Sustainable Systems
-
----
-
 ### 🎓 Education & Certifications
 * **M.Sc. Candidate in Systems & Computational Biology** — Weizmann Institute of Science *(Incoming)*
 * **Data Analyst Professional Certificate** — Google & Reichman AI Tech School
