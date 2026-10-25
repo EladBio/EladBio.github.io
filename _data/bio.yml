@@ -3,23 +3,21 @@ title: "M.Sc. Candidate in Systems & Computational Biology"
 institution: "Weizmann Institute of Science"
 summary: "I'm an incoming M.Sc. candidate in Systems and Computational Biology at the Weizmann Institute of Science with a background in environmental science and sustainable building. Over the past two years, I worked as a Sustainability Project Manager, leading complex projects from planning to execution. Alongside my work, I completed professional data analytics Google-Reichman training and am now channeling that analytical toolkit toward computational and biological systems."
 
-focus_areas:
-  - "Computational Biology & Research: Starting my graduate studies focusing on biological research, ecological modeling, and computational systems."
-  - "Data Analysis & Tooling: Turning messy data into clear narratives using Python, SQL (BigQuery) and R."
-  - "Sustainability & Project Delivery: Translating environmental metrics into practical project milestones."
+what_i_do:
+  - "<b>Computational Biology & Research:</b> Starting my graduate studies focusing on biological research, ecological modeling, and computational systems."
+  - "<b>Data Analysis & Tooling:</b> Turning messy data into clear narratives using Python, SQL (BigQuery) and R."
+  - "<b>Sustainability & Project Delivery:</b> Translating environmental metrics, regulations, and systems-thinking into practical project milestones."
 
-tools:
-  - "Python"
-  - "SQL & BigQuery"
-  - "R"
-  - "Power BI & Tableau"
-  - "Advanced Excel"
+education:
+  - "<b>M.Sc. Candidate in Systems & Computational Biology</b> — Weizmann Institute of Science <i>(Incoming)</i>"
+  - "<b>Data Analyst Professional Certificate</b> — Google & Reichman AI Tech School"
+  - "<b>B.Sc. in Environmental Science</b> <i>(Summa Cum Laude)</i>"
 
 interests:
-  - "🎹 Music: Playing keyboards; fan of live electronic music, psych-trance, and classic rock."
-  - "🥾 Outdoors: Hiking, mountain trails, and spending time in nature."
-  - "⚽ Sports: Playing padel, running, and avidly following football tactics."
+  - "🎹 <b>Music:</b> Playing keyboards/piano; big fan of live electronic music, jazz and classic rock."
+  - "🥾 <b>Outdoors:</b> Hiking, mountain trails, and spending as much time in nature as possible."
+  - "⚽ <b>Sports:</b> Running, weight lifting, padel and football playing and avidly following football (YNWA)."
 
 links:
-  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN"
-  email: "mailto:YOUR_EMAIL@example.com"
+  linkedin: "https://www.linkedin.com/in/elad-cohen-science/"
+  email: "mailto:coelad@weizmann.ac.il"
