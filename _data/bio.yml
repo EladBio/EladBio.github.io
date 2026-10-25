@@ -1,0 +1,12 @@
+name: "Elad Cohen"
+title: "M.Sc. Candidate in Systems & Computational Biology"
+institution: "Weizmann Institute of Science"
+summary: "I'm an incoming M.Sc. candidate in Systems and Computational Biology at the Weizmann Institute of Science with a background in environmental science and sustainable building. Over the past two years, I worked as a Sustainability Project Manager, leading complex projects from planning to execution. Alongside my work, I completed professional data analytics Google-Reichman training and am now channeling that analytical toolkit toward computational and biological systems."
+
+focus_areas:
+  - "Computational Biology & Research: Starting my graduate studies focusing on biological research, ecological modeling, and computational systems."
+  - "Data Analysis & Tooling: Turning messy data into clear narratives using Python, SQL (BigQuery) and R."
+
+links:
+  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN"
+  email: "mailto:YOUR_EMAIL@example.com"
