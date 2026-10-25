@@ -3,31 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.data.bio.name }}</title>
+  <title>{{ site.data.bio.name }} - Portfolio</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
     :root {
-      --bg: #0d1117;
-      --card: #161b22;
-      --border: #30363d;
-      --text: #c9d1d9;
-      --heading: #f0f6fc;
-      --accent: #58a6ff;
-      --tag-bg: #21262d;
+      --bg: #0b0f19;
+      --card-bg: #151b2b;
+      --border: #2a3441;
+      --text-main: #d1d5db;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-hover: #60a5fa;
     }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg); color: var(--text);
-      line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 40px 20px;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
     }
-    h1, h2, h3 { color: var(--heading); margin-bottom: 8px; }
-    h1 { font-size: 2rem; }
-    .subtitle { color: var(--accent); font-weight: 500; margin-top: 0; }
-    .institution { color: #8b949e; margin-top: -6px; }
-    hr { border: 0; border-top: 1px solid var(--border); margin: 30px 0; }
-    .links a { display: inline-block; margin-right: 12px; color: var(--accent); text-decoration: none; font-weight: 600; }
-    .links a:hover { text-decoration: underline; }
-    .tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; }
-    .tags li { background: var(--tag-bg); border: 1px solid var(--border); padding: 4px 12px; border-radius: 20px; font-size: 0.9rem; }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    h1 {
+      color: #ffffff;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      color: var(--accent);
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    .institution {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+    .contact-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .contact-links a {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 20px;
+      border-radius: 25px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .contact-links a:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #ffffff;
+      font-size: 1.4rem;
+      margin-top: 0;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 12px;
+    }
+    li:last-child {
+      margin-bottom: 0;
+    }
+    b { color: #ffffff; }
   </style>
 </head>
 <body>
@@ -36,44 +99,43 @@
     <h1>Hi, I'm {{ site.data.bio.name }} 👋</h1>
     <p class="subtitle">{{ site.data.bio.title }}</p>
     <p class="institution">{{ site.data.bio.institution }}</p>
-    <div class="links">
+    
+    <div class="contact-links">
       <a href="{{ site.data.bio.links.linkedin }}" target="_blank">LinkedIn</a>
       <a href="{{ site.data.bio.links.email }}">Email</a>
     </div>
   </header>
 
-  <hr>
+  <div class="section-card">
+    <p style="margin: 0;">{{ site.data.bio.summary }}</p>
+  </div>
 
-  <section>
-    <p>{{ site.data.bio.summary }}</p>
-  </section>
-
-  <section>
-    <h3>🔬 What I Do & Explore</h3>
+  <div class="section-card">
+    <h2>🔬 What I Do & Explore</h2>
     <ul>
-      {% for item in site.data.bio.focus_areas %}
+      {% for item in site.data.bio.what_i_do %}
         <li>{{ item }}</li>
       {% endfor %}
     </ul>
-  </section>
+  </div>
 
-  <section>
-    <h3>🛠️ Tech Stack & Methods</h3>
-    <ul class="tags">
-      {% for tool in site.data.bio.tools %}
-        <li>{{ tool }}</li>
+  <div class="section-card">
+    <h2>🎓 Education & Certifications</h2>
+    <ul>
+      {% for edu in site.data.bio.education %}
+        <li>{{ edu }}</li>
       {% endfor %}
     </ul>
-  </section>
+  </div>
 
-  <section>
-    <h3>⚡ Beyond the Screen</h3>
+  <div class="section-card">
+    <h2>⚡ Beyond the Terminal</h2>
     <ul>
       {% for interest in site.data.bio.interests %}
         <li>{{ interest }}</li>
       {% endfor %}
     </ul>
-  </section>
+  </div>
 
 </body>
 </html>
